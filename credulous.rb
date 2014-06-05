@@ -3,8 +3,8 @@ require 'formula'
 class Credulous < Formula
   homepage 'https://github.com/realestate-com-au/credulous'
   version '0.2.0'
-  url "file:///tmp/credulous-0.2.0.104-osx.tgz"
-  sha1 '5b522f3e0d845ff731cd1a1f1751fca4d5d4fbb8'
+  url "https://github.com/realestate-com-au/credulous/releases/download/#{version}/credulous-#{version}.104-osx.tgz"
+  sha1 'aa232809883dee18021e8d4ab54fcd160f522fc7'
 
   def install
     bin.install "credulous"
