@@ -4,7 +4,7 @@ class Credulous < Formula
   homepage 'https://github.com/realestate-com-au/credulous'
   version '0.2.1'
   url "https://github.com/realestate-com-au/credulous/releases/download/#{version}/credulous-#{version}.131-osx.tgz"
-  sha1 '27e6b2f431b04b051cba896ee85744ee2ad5d326'
+  sha256 '42ac207b8ef19509986d3a7eda3832f2466bf79ad3cbaa241986dc653e22daf9'
 
   def install
     bin.install "credulous"
